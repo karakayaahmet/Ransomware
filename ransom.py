@@ -4,7 +4,7 @@ import os
 file_list = []
 
 for file in os.listdir():
-    if file == "ransom.py":
+    if file == "ransom.py" or file == "dosyalari-sifrele.py" or file == "generatedkey.key" or file == "dosyalari-coz.py":
         continue
 
     if os.path.isfile(file):
@@ -12,3 +12,10 @@ for file in os.listdir():
 
 print(file_list)
 
+import os
+
+file_list = []
+
+for file in os.listdir():
+    if file == "ransom.py":
+        continue
