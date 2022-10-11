@@ -12,10 +12,5 @@ for file in os.listdir():
 
 print(file_list)
 
-import os
 
-file_list = []
 
-for file in os.listdir():
-    if file == "ransom.py":
-        continue
